@@ -2,7 +2,7 @@
 blueprint:
   name: Controller - IKEA E1524/E1810 TRÅDFRI Wireless 5-Button Remote old fw
   description: |
-    # Controller - IKEA E1524/E1810 TRÅDFRI Wireless 5-Button Remote
+    # Controller - IKEA E1524/E1810 TRÅDFRI Wireless 5-Button Remote old fw
 
     Controller automation for executing any kind of action triggered by the provided IKEA E1524/E1810 TRÅDFRI Wireless 5-Button Remote. Allows to optionally loop an action on a button long press.
     Supports deCONZ, ZHA, Zigbee2MQTT.
