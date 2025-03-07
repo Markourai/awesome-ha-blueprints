@@ -69,19 +69,20 @@ blueprint:
       description: Action to run on button single press.
       default: []
       selector:
-        action: {}
+        action: 
     button_one_double_press:
       name: (Optional) Double Press 
       description: Action to run on button double press
       default: []
       selector:
-        action: {}
+        action: 
     button_one_long_press:
       name: (Optional) Long Press
       description: Action to run on button long press
       default: []
       selector:
-        action: # inputs for looping custom actions on long button press events until the corresponding release event is received
+        action: 
+    # inputs for looping custom actions on long button press events until the corresponding release event is received
     helper_debounce_delay:
       name: (Optional) Helper - Debounce delay
       description:
