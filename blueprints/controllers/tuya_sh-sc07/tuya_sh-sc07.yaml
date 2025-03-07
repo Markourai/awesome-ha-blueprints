@@ -33,7 +33,7 @@ blueprint:
             - deCONZ
             - ZHA
             - Zigbee2MQTT
-     controller_device:
+    controller_device:
       name: (Required) (deCONZ, ZHA, Zigbee2MQTT) Controller Device
       description: The controller device to use for the automation. Choose a value only if the remote is integrated with deCONZ, ZHA, Zigbee2MQTT.
       default: ''
@@ -118,7 +118,7 @@ variables:
       # source: https://www.zigbee2mqtt.io/devices/E1812.html#ikea-e1812
       one_short_press: ['single']
       one_double_press: ['double']
-      one_long_press: ['hold'']
+      one_long_press: ['hold']
   # pre-choose actions for buttons based on configured integration
   # no need to perform this task at automation runtime
   one_short_press: '{{ actions_mapping[integration_id]["one_short_press"] }}'
