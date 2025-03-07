@@ -1,6 +1,6 @@
 # Blueprint metadata
 blueprint:
-  name: Controller - Tuya 1 Button Scene Switch SH-SC07
+  name: Controller - Tuya SH-SC07 Shortcut button
   description: |
     # Controller - Tuya SH-SC07 Shortcut button
 
@@ -24,7 +24,7 @@ blueprint:
   homeassistant:
     min_version: 2024.10.0  
   input:
-      integration:
+    integration:
       name: (Required) Integration
       description: Integration used for connecting the remote with Home Assistant. Select one of the available values.
       selector:
