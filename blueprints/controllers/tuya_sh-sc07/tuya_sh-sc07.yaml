@@ -222,4 +222,4 @@ actions:
           # run the custom action
           - choose:
               - conditions: []
-                sequence: !input button__one_long_press
+                sequence: !input button_one_long_press
