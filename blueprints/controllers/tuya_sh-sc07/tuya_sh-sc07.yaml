@@ -198,28 +198,28 @@ actions:
           - event: ahb_controller_event
             event_data:
               controller: '{{ controller_id }}'
-              action: one_short_press
+              action: button_one_short_press
           - choose:
               - conditions: []
-                sequence: !input one_short_press
+                sequence: !input button_one_short_press
       - conditions: '{{ trigger_action | string in one_double_press }}'
         sequence:
           # fire the event
           - event: ahb_controller_event
             event_data:
               controller: '{{ controller_id }}'
-              action: one_double_press
+              action: button_one_double_press
           - choose:
               - conditions: []
-                sequence: !input one_double_press
+                sequence: !input button_one_double_press
       - conditions: '{{ trigger_action | string in one_long_press }}'
         sequence:
           # fire the event
           - event: ahb_controller_event
             event_data:
               controller: '{{ controller_id }}'
-              action: one_long_press
+              action: button_one_long_press
           # run the custom action
           - choose:
               - conditions: []
-                sequence: !input action_one_long_press
+                sequence: !input button__one_long_press
