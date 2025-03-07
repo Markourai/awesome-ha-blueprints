@@ -1,8 +1,8 @@
 # Blueprint metadata
 blueprint:
-  name: Zigbee2MQTT - Tuya 1-Button Scene Switch SH-SC07
+  name: Zigbee2MQTT - Tuya 1 Button Scene Switch SH-SC07
   description: |
-# Controller - Tuya SH-SC07 Shortcut button
+    # Controller - Tuya SH-SC07 Shortcut button
 
     Controller automation for executing any kind of action triggered by the provided Tuya SH-SC07 Shortcut button. Allows to optionally loop an action on a button long press.
     Supports deCONZ, ZHA, Zigbee2MQTT.
