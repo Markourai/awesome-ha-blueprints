@@ -1,6 +1,6 @@
 # Blueprint metadata
 blueprint:
-  name: Zigbee2MQTT - Tuya 1 Button Scene Switch SH-SC07
+  name: Controller - Tuya 1 Button Scene Switch SH-SC07
   description: |
     # Controller - Tuya SH-SC07 Shortcut button
 
