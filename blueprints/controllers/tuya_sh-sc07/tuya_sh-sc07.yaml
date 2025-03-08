@@ -43,7 +43,7 @@ blueprint:
             # source: https://www.zigbee2mqtt.io/devices/SH-SC07.html#tuya-sh-sc07
             - integration: mqtt
               manufacturer: Tuya
-              model: Button scene switch (SH-SC07)
+              model: Button scene switch
             # For backwards compatability with z2m 1.x. model_id is added to end of model rather than a seperate attribute in z2m 2.x
             - integration: mqtt
               manufacturer: Tuya
@@ -51,10 +51,10 @@ blueprint:
             # source: https://github.com/dresden-elektronik/deconz-rest-plugin/wiki/Supported-Devices
             - integration: zha
               manufacturer: Tuya of Sweden
-              model: Button scene switch (SH-SC07)
+              model: Button scene switch
             - integration: deconz
               manufacturer: Tuya of Sweden
-              model: Button scene switch (SH-SC07)
+              model: Button scene switch
           multiple: false
     helper_last_controller_event:
       name: (Required) Helper - Last Controller Event
